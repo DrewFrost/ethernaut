@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_delegateAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Delegate.sol": "Delegation"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Delegate.sol": {
+			"keccak256": "0xaa423ea13a1ec16d9db344eaa359ee165654c7edd155a45fd24c9332a3f28bf9",
+			"urls": [
+				"bzz-raw://32713559d7ca2665ad271274233aa6ca7e90821979741bf936ae3bd8a1354fc6",
+				"dweb:/ipfs/QmV39JoVX3C5YNxTCiMnSELmmwseZSeJaPv1s71ETUonL1"
+			]
+		}
+	},
+	"version": 1
+}
