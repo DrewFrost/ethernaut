@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0;
 
-import 'github.com/OpenZeppelin/openzeppelin-contracts/blob/solc-0.6/contracts/math/SafeMath.sol';
+
+import "@openzeppelin/contracts/math/SafeMath.sol";
 
 contract HackCoinFlip {
 
