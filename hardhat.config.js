@@ -1,4 +1,4 @@
-require("@nomiclabs/hardhat-waffle");
+require('@nomiclabs/hardhat-waffle');
 require('@nomiclabs/hardhat-ethers');
 require('dotenv').config();
 
@@ -8,7 +8,6 @@ module.exports = {
     rinkeby: {
       url: process.env.RINKEBY_URL,
       accounts: [process.env.RINKEBY_PRIVATE_KEY],
-      gas: 2100000,
     },
   },
 };
